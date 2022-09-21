@@ -1,5 +1,5 @@
 #lcwaikiki-basic-selenium-test
-#page-object-model½
+#page-object-model
 #selenium
 #end-to-end
 #java
