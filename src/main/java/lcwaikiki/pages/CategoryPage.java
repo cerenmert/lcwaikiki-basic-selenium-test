@@ -11,8 +11,8 @@ public class CategoryPage extends BasePage {
     }
 
     public ProductPage selectOneProduct() {
-        click(selectFirstProduct,2);
-        return  new ProductPage(webDriver);
+        click(selectFirstProduct, 2);
+        return new ProductPage(webDriver);
     }
 
 

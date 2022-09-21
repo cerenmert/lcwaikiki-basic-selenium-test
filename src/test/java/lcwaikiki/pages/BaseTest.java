@@ -17,15 +17,12 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-        // sayfada "bu browser ChromeDriver tarafından otomatize ediliyor" gibi bir yazı çıkmasını engelliyor.
-
-        //System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         WebDriverManager.chromedriver().setup(); //bonigarcia
         webDriver = new ChromeDriver(options);
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webDriver.get("https://www.lcwaikiki.com/tr-TR/TR");
-}
+    }
 
     @AfterMethod
     public void tearDown() {

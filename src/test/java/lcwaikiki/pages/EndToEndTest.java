@@ -2,7 +2,7 @@ package lcwaikiki.pages;
 
 import org.testng.annotations.Test;
 
-public class EndToEndTest extends BaseTest{
+public class EndToEndTest extends BaseTest {
 
     @Test
     public void shouldGoToCategory() {
@@ -13,8 +13,6 @@ public class EndToEndTest extends BaseTest{
         productPage.addToBasket();
         basePage.goToBasketPage();
         basePage.goToDashboard();
-
     }
-
 
 }

@@ -10,7 +10,6 @@ public class BasePage extends WebDriverHelper {
     By womanTab = By.cssSelector(".menu-nav > ul > li:nth-of-type(1)");
     By shirtSubCategory = By.cssSelector("li:nth-of-type(1)>.mega-menu>.flex-row>.flex-col.flex-col--zone-items>ul>li:nth-of-type(7) a");
     By myBasket = By.cssSelector("div:nth-of-type(2) > .header-dropdown-toggle");
-
     By mainHeaderLogo = By.cssSelector(".main-header-logo > svg");
 
     public BasePage(WebDriver webDriver) {
